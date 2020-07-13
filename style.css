@@ -1,0 +1,222 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: AKIB
+	Author URI: http://www.AKIB.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+	
+-----------------------------------------------------------------------------------
+
+	1. Typography
+    2. Header Area
+        2.1 Menu Area
+        2.2 Welecome text
+        2.3 Social Media
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "gotham rouneded";
+    src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+body, p {
+    font-family: "gotham rounded";
+    font-size: 12px;
+    line-height: 1.3em;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.header-area {
+    background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.menu-area ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.menu-area ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.menu-area ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+.menu-area ul .logo img {
+    margin: 0 40px;
+    width: 40px;
+    height: auto;
+
+}
+.menu-area ul .logo a:hover {
+    border: none;
+}
+.menu-area ul .logo a {
+    border: none;
+}
+.menu-area ul li a:hover{
+    color: #16a086;
+    border-bottom: 1px solid #ffffff;
+}
+.welcome-text {
+    margin-top: 180px;
+}
+
+.header-area h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+
+}
+.header-area h5 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    background: #16a086;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 2px;
+    display: inline-block;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+.btn:hover {
+    background: #ffffff;
+    color: #16a086;
+    border: 1px solid #16a086;
+}
+.social-media {
+    overflow: hidden;
+    margin-top: 130px;
+}
+.social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+.social-media ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.getting-started {
+    overflow: hidden;
+    max-height: 300px;
+    background: #f5f6f8 url('images/hand.png') no-repeat cover ;
+    
+}
+.getting-started .text-area {
+     padding: 50px 0;
+}
+.col-1-2 {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.getting-started .image-area img {
+    width: 100%;
+    margin-top: 50px;
+}
+h3 {
+    color: #16a086;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+p {
+    color: #373737;
+    letter-spacing: 1px;
+    font-size: 10px;
+    line-height: 2em;
+}
+.text-area p {
+    margin-bottom: 30px;
+}
+.mobile-area {
+   overflow: hidden;
+   margin-top: 60px;
+}
+.design {
+    overflow: hidden;
+    background-image: url('images/mobile.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top left;
+}
+.design-text {
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+.slide {
+    margin: 50px 0;
+}
+.arrow i {
+color: #000000;
+font-size: 20px;
+margin-right: 10px;
+}
+.subscribe-area {
+    background: url('images/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+    padding: 200px;
+}
+.subscribe-area form {
+    width: 240px;
+    margin: 0 auto;
+}
+.subscribe-area form input[type="email"]{
+    background: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    margin-right: 0;
+}
+.subscribe-area form button {
+    background: #11a689;
+    color:#ffffff
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    margin-right: -3px;
+    
+}
